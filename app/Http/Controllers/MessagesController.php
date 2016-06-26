@@ -23,7 +23,7 @@ class MessagesController extends Controller
         $user = User::find(1);
         Auth::login($user);
     }
-    
+
     /**
      * Show all of the message threads to the user.
      *
